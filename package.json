@@ -2,6 +2,10 @@
   "name": "halopsa-rest",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-grube/halopsa-rest"
+  },
   "type": "commonjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,7 +42,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.15.0",
+    "axios": "^1.18.0",
     "promise-retry": "^2.0.1"
   },
   "devDependencies": {
@@ -58,7 +62,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^17.5.0",
     "lodash": "^4.18.1",
-    "mocha": "^11.7.5",
+    "mocha": "12.0.1",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^18.0.0",
     "openapi-typescript": "^7.13.0",
